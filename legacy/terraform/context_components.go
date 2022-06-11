@@ -2,10 +2,9 @@ package terraform
 
 import (
 	"fmt"
-
-	"github.com/hashicorp/terraform/internal/addrs"
-	"github.com/hashicorp/terraform/internal/providers"
-	"github.com/hashicorp/terraform/internal/provisioners"
+	"github.com/Jae-cisco/terraform/addrs"
+	"github.com/Jae-cisco/terraform/providers"
+	"github.com/Jae-cisco/terraform/provisioners"
 )
 
 // contextComponentFactory is the interface that Context uses
